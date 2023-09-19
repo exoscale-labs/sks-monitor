@@ -25,6 +25,13 @@ The architecture is really scalable and 3rd party libraries makes it more powerf
  Grafana is an open-source analytics and visualization tool for viewing the metrics scraped by Prometheus from various resources. 
 Grafana does not store any data, but instead, it relies on Prometheus to send the data so that dashboard can be prepared.
 
+## Prerequisites
+
+This guide will be a step-by-step tutorial. To follow along, be sure to have the following:
+
+- Kubectl
+- Helm
+- Terraform
 ## Improvements for Production environments
 
 - CI/CD pipelines:  For further agility and flexibility.

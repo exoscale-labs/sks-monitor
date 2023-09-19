@@ -12,15 +12,16 @@ This Terraform / Helm project allows you to deploy a monitoring stack composed o
 
 ## Monitoring Stack
 
-### Node exporter 
+- Node exporter 
 
 Node exporter is responsible for fetching the statistics from various hardware and virtual resources in the format which Prometheus can understand and with the help of the prometheus server those statistics can be exposed on port 9100.
-### Prometheus 
+
+- Prometheus 
 
 Prometheus is an open-source tool for scrapping the performance metrics of any given hardware resource (CPU, VM, Cloud Virtual Machine, Router, etc.).
 The architecture is really scalable and 3rd party libraries makes it more powerful.
 
-### Grafana 
+- Grafana 
 
  Grafana is an open-source analytics and visualization tool for viewing the metrics scraped by Prometheus from various resources. 
 Grafana does not store any data, but instead, it relies on Prometheus to send the data so that dashboard can be prepared.
